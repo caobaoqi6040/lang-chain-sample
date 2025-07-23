@@ -1,0 +1,16 @@
+services:
+  chroma:
+    image: 'chromadb/chroma:1.0.16.dev54'
+    ports:
+      - '${CHROMA_PORT}:8000'
+  mysql:
+    image: 'mysql:8.0.42'
+    environment:
+      - 'MYSQL_DATABASE=${MYSQL_DB}'
+      - 'MYSQL_ROOT_PASSWORD=${MYSQL_PASSWORD}'
+    ports:
+      - '${MYSQL_PORT}:3306'
+  redis:
+    image: 'redis:7.2.10'
+    ports:
+      - '${REDIS_PORT}:6379'
