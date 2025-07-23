@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "MS-CEINTL.vscode-language-pack-zh-hans",
+        "PKief.material-icon-theme",
+        "mhutchie.git-graph",
+        "redjue.git-commit-plugin",
+        "wayou.vscode-todo-highlight",
+        "ms-vscode-remote.remote-ssh",
+        "k--kato.intellij-idea-keybindings",
+        "ms-azuretools.vscode-docker",
+        "ms-python.python",
+        "donjayamanne.python-environment-manager"
+    ]
+}

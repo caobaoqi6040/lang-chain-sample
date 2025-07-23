@@ -1,0 +1,18 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Cascadia Mono",
+    "editor.fontSize": 12.6,
+    "editor.fontWeight": "normal",
+    "window.zoomLevel": 1.25,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 1,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "markdown.preview.fontSize": 11,
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.iconTheme": "material-icon-theme",
+    "GitCommitPlugin.MaxSubjectCharacters": 50,
+    "explorer.fileNesting.enabled": false,
+}

@@ -1,0 +1,9 @@
+{
+    "dependencies": [
+        "./"
+    ],
+    "graphs": {
+        "dsk-weather-query": "./graph.py:graph"
+    },
+    "env": ".env"
+}
