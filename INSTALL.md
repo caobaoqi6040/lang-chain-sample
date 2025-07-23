@@ -1,10 +1,10 @@
 # lang-chain-sample
 
 ```shell
-pip install langgraph # 0.5.4
-pip show langgraph
-pip install python-dotenv openai
+pip install openai
 pip install langchain
+pip install langgraph
+pip install python-dotenv
 # https://python.langchain.com/docs/integrations/chat/
 pip install langchain-deepseek
 pip install langchain-qwq
@@ -12,6 +12,7 @@ pip install langchain-openai
 pip install langchain-ollama
 pip install -U langchain-tavily
 pip install -U langgraph-cli[inmem]
+pip install httpx langchain-mcp-adapters
 ```
 
 # deploy to agent ui

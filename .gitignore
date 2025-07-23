@@ -19,3 +19,5 @@ wheels/
 .langgraph_api
 
 node_modules
+temp
+data
