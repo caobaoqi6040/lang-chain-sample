@@ -2,12 +2,18 @@
   "mcpServers": {
     "weather": {
       "command": "python",
-      "args": ["mcp/weather_server.py"],
+      "args": [
+        "mcp/weather_server.py"
+      ],
       "transport": "stdio"
     },
-    "write": {
-      "command": "python",
-      "args": ["mcp/write_server.py"],
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\caoba\\PycharmProjects\\lang-chain-sample"
+      ],
       "transport": "stdio"
     }
   }
